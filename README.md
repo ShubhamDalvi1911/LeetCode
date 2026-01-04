@@ -7,8 +7,9 @@ LeetCode solutions repository containing optimized code and essential problem-so
 
 | Problem | Path | Status | Notes |
 |---|---|---:|---|
-| Two Sum (LeetCode #1) | `NumberProbles/twosum.py` | **Solved** ✅ | Returns indices of two numbers that add up to the target (example usages included) |
-| Add Two Numbers (LeetCode #2) | `NumberProbles/addtwonumbers.py` | **Solved** ✅ | Adds two numbers represented as linked lists; example prints `[7, 0, 8]` |
+| Two Sum (LeetCode #1) | `NumberProblems/twosum.py` | **Solved** ✅ | Returns indices of two numbers that add up to the target (example usages included) |
+| Add Two Numbers (LeetCode #2) | `NumberProblems/addtwonumbers.py` | **Solved** ✅ | Adds two numbers represented as linked lists; example prints `[7, 0, 8]` |
+| Longest Substring (LeetCode #3) | `StringProblems/longestsubstring.py` | **Solved** ✅ | `partition_unique_substrings(s)` partitions s into maximal substrings with unique characters; e.g., `"Satyam"` -> `['Saty', 'am']`, `"dvdf"` -> `['dv', 'vdf']` |
 
 ---
 
@@ -17,13 +18,26 @@ LeetCode solutions repository containing optimized code and essential problem-so
 To run the example for Two Sum:
 
 ```
-python NumberProbles/twosum.py
+python NumberProblems/twosum.py
 ```
 
 To run the example for Add Two Numbers:
 
 ```
-python NumberProbles/addtwonumbers.py
+python NumberProblems/addtwonumbers.py
+```
+
+To run the example for Partition Unique Substrings / Longest Substring:
+
+```
+python StringProblems/longestsubstring.py
+```
+
+Expected output (example):
+
+```
+Unique substrings without duplicate characters are: ['pw', 'wke', 'kew']
+Length of longest substring without duplicate characters is: 3
 ```
 
 ---
