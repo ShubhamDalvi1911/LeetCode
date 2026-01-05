@@ -17,12 +17,6 @@ Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.'''
 
 def longestsubstrings(s: str) -> list:
-    """
-    Partition string into substrings with unique characters using a sliding window.
-    When a duplicate is found, append current substring and remove up to (and including)
-    the first occurrence of the duplicate.
-    Example: "dvdf" -> ["dv", "vdf"]
-    """
     parts = []
     current = ""
     for ch in s:
@@ -40,7 +34,7 @@ def longestsubstrings(s: str) -> list:
 def main():
     s = "pwwkew"
     parts = longestsubstrings(s)
-    print("Unique substrings without duplicate characters are:", parts)
+    # print("Unique substrings without duplicate characters are:", parts)
     print("Length of longest substring without duplicate characters is:", max(len(part) for part in parts)) 
 
 if __name__ == "__main__":
