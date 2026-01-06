@@ -19,7 +19,6 @@ def MedianOfTwoSortedArrays(arr1, arr2):
         mid = merged_array[n // 2 - 1 : n // 2 + 1]
         return sum(mid) / 2
 
-
 def main():
     arr1 = [1,2]
     arr2 = [3,4]
