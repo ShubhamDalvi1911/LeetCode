@@ -12,6 +12,7 @@ LeetCode solutions repository containing optimized code and essential problem-so
 | Longest Substring (LeetCode #3) | `StringProblems/longest_substring.py` | **Solved** ✅ | `length_of_longest_substring(s)` returns the length; e.g., `"pwwkew"` -> `3` |
 | Median of Two Sorted Arrays (LeetCode #4) | `ArrayProblems/median_of_two_sorted_arrays.py` | **Solved** ✅ | Efficient O(log(min(m,n))) algorithm to find the median of two sorted arrays |
 | Longest Palindromic Substring (LeetCode #5) | `StringProblems/longest_palindromic_substring.py` | **Solved** ✅ | `longest_palindrome(s)` returns the longest palindromic substring; e.g., `"babad"` -> `"bab"` |
+| ZigZag Conversion (LeetCode #6) | `StringProblems/zigzag_conversion.py` | **Solved** ✅ | `convert(s, numRows)` returns the converted string; e.g., `"PAYPALISHIRING", 3` -> `"PAHNAPLSIIGYIR"` |
 
 ---
 
@@ -39,6 +40,12 @@ To run the example for Longest Palindromic Substring:
 
 ```
 python StringProblems/longest_palindromic_substring.py
+```
+
+To run the example for ZigZag Conversion:
+
+```
+python StringProblems/zigzag_conversion.py
 ```
 
 To run the example for Median of Two Sorted Arrays:
