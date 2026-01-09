@@ -13,6 +13,7 @@ LeetCode solutions repository containing optimized code and essential problem-so
 | Median of Two Sorted Arrays (LeetCode #4) | `ArrayProblems/median_of_two_sorted_arrays.py` | **Solved** ✅ | Efficient O(log(min(m,n))) algorithm to find the median of two sorted arrays |
 | Longest Palindromic Substring (LeetCode #5) | `StringProblems/longest_palindromic_substring.py` | **Solved** ✅ | `longest_palindrome(s)` returns the longest palindromic substring; e.g., `"babad"` -> `"bab"` |
 | ZigZag Conversion (LeetCode #6) | `StringProblems/zigzag_conversion.py` | **Solved** ✅ | `convert(s, numRows)` returns the converted string; e.g., `"PAYPALISHIRING", 3` -> `"PAHNAPLSIIGYIR"` |
+| Reverse Integer (LeetCode #7) | `NumberProblems/reverse_integer.py` | **Solved** ✅ | `reverse(x)` returns the integer with its digits reversed; handles 32-bit overflow |
 
 ---
 
@@ -46,6 +47,12 @@ To run the example for ZigZag Conversion:
 
 ```
 python StringProblems/zigzag_conversion.py
+```
+
+To run the example for Reverse Integer:
+
+```
+python NumberProblems/reverse_integer.py
 ```
 
 To run the example for Median of Two Sorted Arrays:
