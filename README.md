@@ -14,7 +14,7 @@ LeetCode solutions repository containing optimized code and essential problem-so
 | Longest Palindromic Substring (LeetCode #5) | `StringProblems/longest_palindromic_substring.py` | **Solved** ✅ | `longest_palindrome(s)` returns the longest palindromic substring; e.g., `"babad"` -> `"bab"` |
 | ZigZag Conversion (LeetCode #6) | `StringProblems/zigzag_conversion.py` | **Solved** ✅ | `convert(s, numRows)` returns the converted string; e.g., `"PAYPALISHIRING", 3` -> `"PAHNAPLSIIGYIR"` |
 | Reverse Integer (LeetCode #7) | `NumberProblems/reverse_integer.py` | **Solved** ✅ | `reverse(x)` returns the integer with its digits reversed; handles 32-bit overflow |
-
+| Palindrome Number (LeetCode #9) | `NumberProblems/palindrome_number.py` | **Solved** ✅ | `IsPalindrome(x)` prints whether x is a palindrome; handles negatives (prints False) |
 ---
 
 ## How to run 🔧
@@ -53,6 +53,12 @@ To run the example for Reverse Integer:
 
 ```
 python NumberProblems/reverse_integer.py
+```
+
+To run the example for Palindrome Number:
+
+```
+python NumberProblems/palindrome_number.py
 ```
 
 To run the example for Median of Two Sorted Arrays:
