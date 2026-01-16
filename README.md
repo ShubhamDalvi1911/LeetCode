@@ -16,6 +16,7 @@ LeetCode solutions repository containing optimized code and essential problem-so
 | Reverse Integer (LeetCode #7) | `NumberProblems/reverse_integer.py` | **Solved** ✅ | `reverse(x)` returns the integer with its digits reversed; handles 32-bit overflow |
 | Palindrome Number (LeetCode #9) | `NumberProblems/palindrome_number.py` | **Solved** ✅ | `IsPalindrome(x)` prints whether x is a palindrome; handles negatives (prints False) |
 | Container With Most Water (LeetCode #11) | `ArrayProblems/most_water.py` | **Solved** ✅ | Two-pointer O(n) solution returning the maximum water area; example: `[1,8,6,2,5,4,8,3,7]` -> `49` |
+| Integer to Roman (LeetCode #12) | `NumberProblems/integer_to_roman.py` | **Solved** ✅ | `intToRoman(num)` converts an integer to Roman numeral representation; example: `3749` -> `"MMMDCCXLIX"` |
 ---
 
 ## Repository structure 📁
