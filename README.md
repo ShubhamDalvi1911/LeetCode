@@ -32,3 +32,15 @@ LeetCode solutions repository containing optimized code and essential problem-so
 ## Contributing 💡
 
 Add a new file in a descriptive folder (for example `ArrayProblems/`) with the problem implementation and then update this README by adding a new row to the "Solved Problems" table. Please include a short note in the table describing the function(s) and an example if useful.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/ShubhamDalvi1911/LeetCode/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/ShubhamDalvi1911/LeetCode/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
